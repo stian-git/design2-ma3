@@ -1,0 +1,295 @@
+@font-face {
+    font-family: "Glamore";
+    src: url("../fonts/Glamore-VGyee.ttf") format("truetype");
+}
+
+:root {
+    --headerfooter_color: rgb(224, 221, 135, 0.3);
+    --border_color: #dcdcdc;
+    --border_color_inverted: #232323;
+    --cta_color: #5f3b94;
+    --cta-hover-color: #c8b6e4;
+    --product_bg: #fffcb3;
+    --navbar_bg: var(--cta_color);
+    --navbar-hover_bg: #c8b6e4;
+    --newproducts_bg: #b5b25e;
+    --body_font: "Poppins", sans-serif;
+    --headers_font: "Glamore", serif;
+}
+
+body {
+    font-family: var(--body_font, "Poppins", sans-serif);
+    min-height: 100vh;
+    margin: 0;
+    background: url("../images/white-brick-wall-edit_50pst-quality5.jpg");
+    background-size: contain;
+}
+.wrapper {
+    display: flex;
+    min-height: 100vh;
+    margin: 0;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+header {
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: var(--headerfooter_color, rgba(245, 245, 220, 0.3));
+    border-bottom: 4px solid var(--border_color, gainsboro);
+    align-items: center;
+}
+
+h1 {
+    font-family: var(--headers_font, "Glamore", serif);
+    font-size: 2em;
+    margin: 2em 0 1em 0;
+}
+
+.logo {
+    display: contents;
+}
+
+main {
+    flex-grow: 1;
+    margin: 0 1em;
+}
+
+footer {
+    background-color: var(--headerfooter_color, rgba(245, 245, 220, 0.3));
+    border-top: 4px solid var(--border_color, gainsboro);
+    height: 12em;
+    display: flex;
+    place-content: space-between;
+    align-items: center;
+    margin-top: 5em;
+    flex-direction: column;
+    padding: 1em;
+}
+
+footer > * {
+    margin: 0 2em;
+}
+
+.header__left {
+    margin-left: 10px;
+    display: flex;
+    height: fit-content;
+}
+.header__right {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    place-content: space-around;
+}
+
+.header__right-navbar {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+
+.header__right-navbar-item {
+    padding: 10px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    background-color: var(--navbar_bg, brown);
+    width: 80px;
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.header__right-navbar-item:hover {
+    background-color: var(--navbar-hover_bg, brown);
+    color: black;
+}
+
+.header__right-navbar-item a {
+    color: inherit;
+    display: contents;
+}
+
+.header__right-navbar-item:nth-child(1) {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.header__right-navbar-item:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.header__right-login {
+    display: flex;
+    justify-content: center;
+    margin-right: 1em;
+    margin-top: 1em;
+}
+
+.header__right-title {
+    display: block;
+    margin-left: 2em;
+    margin-bottom: 10px;
+}
+
+.header__right-navbar-item .icon_home {
+    background: url(../images/icon_home_white_stroke_widerstroke.svg);
+}
+
+.header__right-navbar-item:hover .icon_home {
+    background: url(../images/icon_home_black_stroke_widerstroke.svg);
+}
+
+.header__right-navbar-item .icon_shop {
+    background: url(../images/icon_shop_white_stroke_widerhandles_nolines.svg);
+}
+.header__right-navbar-item:hover .icon_shop {
+    background: url(../images/icon_shop_black_stroke_widerhandles_nolines.svg);
+}
+
+.header__right-navbar-item .icon_contact {
+    background: url(../images/icon_contact_white.svg);
+}
+
+.header__right-navbar-item:hover .icon_contact {
+    background: url(../images/icon_contact.svg);
+}
+
+.header__right-navbar-item_active {
+    text-decoration: underline;
+}
+
+.header__right-navbar-item p {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    width: 32px;
+    height: 32px;
+    margin: 0 10px;
+    display: none;
+}
+
+.loginbutton:hover {
+    text-decoration: none;
+}
+
+.content {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.content__image {
+    border-radius: 10px;
+    border: 4px solid var(--border_color, gainsboro);
+    height: 450px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.newproducts {
+    background: repeating-linear-gradient(to top, #b5b25e, #b5b25e 15px, #fff 16px, #fff 16px);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+}
+
+.product {
+    background-color: var(--product_bg, #fff);
+    margin: 10px;
+    display: flex;
+    place-content: space-between;
+    flex-direction: column;
+    border: 2px solid var(--border_color);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+    width: fit-content;
+}
+.product * {
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+}
+
+.product *:last-child {
+    border-top: 1px solid black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.product img {
+    width: 300px;
+    height: 300px;
+    padding: 0;
+}
+
+.cta {
+    background-color: var(--cta_color, rebeccapurple);
+    color: white;
+}
+
+.cta:hover {
+    background-color: var(--cta-hover-color, #c8b6e4);
+    color: black;
+}
+
+.fa-brands {
+    font-size: 2em;
+    color: var(--cta-hover-color);
+}
+
+.loginbutton,
+.fa-brands:hover {
+    color: var(--cta_color, rebeccapurple);
+}
+.madeby {
+    font-style: italic;
+    font-size: 0.9em;
+    opacity: 0.4;
+}
+
+.credits a:hover,
+.madeby:hover {
+    opacity: 1;
+}
+
+.credits {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.5em;
+}
+
+.credits a {
+    text-decoration: none;
+    color: inherit;
+    opacity: 0.6;
+}
+
+/* products.html */
+
+.productsbanner {
+    text-align: center;
+    margin-bottom: 5em;
+}
+
+.productsbanner img {
+    border-radius: 10px;
+    border: 6px solid var(--border_color_inverted, #232323);
+    width: 95%;
+    filter: invert(90%);
+}

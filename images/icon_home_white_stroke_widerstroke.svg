@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.3.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 128 128" style="enable-background:new 0 0 128 128;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;}
+	.st1{display:inline;stroke:#000000;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st2{display:inline;fill:none;stroke:#000000;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st3{display:inline;stroke:#000000;stroke-width:8;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st4{display:inline;}
+	
+		.st5{display:inline;fill:#FFFFFF;stroke:#FFFFFF;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st6{display:inline;fill:none;stroke:#FFFFFF;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st7{display:inline;fill:#FFFFFF;stroke:#FFFFFF;stroke-width:8;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st8{display:inline;fill:#FFFFFF;}
+	.st9{display:inline;fill:none;stroke:#000000;stroke-width:10;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st10{fill:none;stroke:#FFFFFF;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st11{fill:none;stroke:#FFFFFF;stroke-width:10;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<g id="House_black" class="st0">
+	<polyline class="st1" points="10,45.08 64,10.84 118,45.71 	"/>
+	<line class="st2" x1="10" y1="45.08" x2="118" y2="45.71"/>
+	<rect x="79.8" y="46.8" class="st3" width="30" height="69.4"/>
+	<rect x="18.2" y="46.8" class="st3" width="30" height="69.4"/>
+	<rect x="41.6" y="45.26" class="st4" width="47.6" height="30.34"/>
+</g>
+<g id="House_x2C__white_00000065051255522989872940000010541937381647675581_" class="st0">
+	<polyline class="st5" points="10,45.08 64,10.84 118,45.71 	"/>
+	<line class="st6" x1="10" y1="45.08" x2="118" y2="45.71"/>
+	<rect x="79.8" y="46.8" class="st7" width="30" height="69.4"/>
+	<rect x="18.2" y="46.8" class="st7" width="30" height="69.4"/>
+	<rect x="41.6" y="45.26" class="st8" width="47.6" height="30.34"/>
+</g>
+<g id="House_x2C__black_strokes" class="st0">
+	<polyline class="st2" points="10,45.08 64,10.84 118,45.71 	"/>
+	<line class="st2" x1="10" y1="45.08" x2="118" y2="45.71"/>
+	<polyline class="st9" points="18.2,46.8 18.2,116.2 48.2,116.2 48.2,73.6 79.8,73.6 79.8,116.2 109.8,116.2 109.8,46.8 	"/>
+</g>
+<g id="House_x2C__white_strokes_copy">
+	<polyline class="st10" points="10,45.08 64,10.84 118,45.71 	"/>
+	<line class="st10" x1="10" y1="45.08" x2="118" y2="45.71"/>
+	<polyline class="st11" points="18.2,46.8 18.2,116.2 48.2,116.2 48.2,73.6 79.8,73.6 79.8,116.2 109.8,116.2 109.8,46.8 	"/>
+</g>
+</svg>
