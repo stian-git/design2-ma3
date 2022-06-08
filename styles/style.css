@@ -42,8 +42,17 @@ header {
 
 h1 {
     font-family: var(--headers_font, "Glamore", serif);
-    font-size: 2em;
+    font-size: 3em;
     margin: 2em 0 1em 0;
+}
+h2 {
+    /* margin-top: 2em; */
+    font-family: Glamore;
+    /* margin-left: -1em; */
+}
+
+h2::first-letter {
+    font-size: 1.5em;
 }
 
 .logo {
@@ -183,7 +192,8 @@ footer > * {
     display: flex;
     flex-direction: column-reverse;
     width: 100%;
-    justify-content: space-evenly;
+    margin-bottom: 3em;
+    /* justify-content: space-evenly; */
 }
 
 .content__image {
@@ -280,6 +290,23 @@ footer > * {
     opacity: 0.6;
 }
 
+/* .image_container {
+    align-self: flex-end;
+} */
+
+/* index.html */
+
+section {
+    margin-bottom: 8em !important;
+}
+
+.articles {
+    display: flex;
+    flex-direction: column;
+    /* width: 800px; */
+    margin: auto;
+}
+
 /* products.html */
 
 .productsbanner {
@@ -292,4 +319,21 @@ footer > * {
     border: 6px solid var(--border_color_inverted, #232323);
     width: 95%;
     filter: invert(90%);
+}
+
+/* contact.html */
+
+td {
+    min-width: 100px;
+}
+
+.address p {
+    margin: 5px 0;
+}
+
+.articles .content__body p:first-of-type {
+    /* font-size: 1.2em; */
+    background-color: var(--headerfooter_color);
+    padding: 5px 10px;
+    border-radius: 10px;
 }
