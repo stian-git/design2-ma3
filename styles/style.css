@@ -35,7 +35,7 @@ body {
 header {
     display: flex;
     flex-direction: column-reverse;
-    background-color: var(--headerfooter_color, rgba(245, 245, 220, 0.3));
+    background-color: var(--headerfooter_color, rgba(224, 221, 135, 0.3));
     border-bottom: 4px solid var(--border_color, gainsboro);
     align-items: center;
 }
@@ -54,6 +54,9 @@ h2::first-letter {
     font-size: 1.5em;
 }
 
+h2:not(:first-child) {
+    margin-top: 4em;
+}
 .logo {
     display: contents;
 }
@@ -64,7 +67,7 @@ main {
 }
 
 footer {
-    background-color: var(--headerfooter_color, rgba(245, 245, 220, 0.3));
+    background-color: var(--headerfooter_color, rgba(224, 221, 135, 0.3));
     border-top: 4px solid var(--border_color, gainsboro);
     height: 12em;
     display: flex;
@@ -134,8 +137,7 @@ footer > * {
 .header__right-login {
     display: flex;
     justify-content: center;
-    margin-right: 1em;
-    margin-top: 1em;
+    margin: 1em 0;
 }
 
 .header__right-title {
@@ -174,6 +176,7 @@ footer > * {
 .header__right-navbar-item p {
     display: flex;
     align-items: center;
+    margin: 0;
 }
 
 .icon {
@@ -222,7 +225,7 @@ footer > * {
     display: flex;
     place-content: space-between;
     flex-direction: column;
-    border: 2px solid var(--border_color);
+    border: 2px solid var(--border_color, #dcdcdc);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     cursor: pointer;
@@ -258,7 +261,7 @@ footer > * {
 
 .fa-brands {
     font-size: 2em;
-    color: var(--cta-hover-color);
+    color: var(--cta-hover-color, #c8b6e4);
 }
 
 .loginbutton,
@@ -294,7 +297,11 @@ footer > * {
     border-radius: 10px;
     font: var(--body_font, sans-serif);
     cursor: pointer;
-    border-color: var(--cta_color);
+    border-color: var(--cta_color, rebeccapurple);
+}
+
+.center {
+    align-self: center;
 }
 
 /* index.html */
@@ -310,7 +317,7 @@ section {
 }
 
 .articles .content__body p:first-of-type {
-    background-color: var(--headerfooter_color);
+    background-color: var(--headerfooter_color, rgba(224, 221, 135, 0.3));
     padding: 5px 10px;
     border-radius: 10px;
 }
